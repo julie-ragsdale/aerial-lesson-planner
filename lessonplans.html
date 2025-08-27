@@ -33,12 +33,28 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav text-white">
-							<a class="nav-link text-white" aria-current="page" href="/"
-								>Home</a
-							>
-							<a class="nav-link active text-white" href="/lessonplans.html"
-								>Lesson Plans</a
-							>
+							<a class="nav-link text-white" href="/">Home</a>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link active fw-semibold dropdown-toggle text-white"
+									href="/lessonplans.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Lesson Plans
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="#">Level 1 Mixed Bar</a>
+									</li>
+									<li><a class="dropdown-item" href="#">Private Lessons</a></li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</li>
+								</ul>
+							</li>
 						</div>
 					</div>
 				</div>
@@ -48,7 +64,38 @@
 		<main>
 			<div class="container-fluid my-4">
 				<h1>Aerial Lesson Planner</h1>
-				<section>...</section>
+				<section>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">First</th>
+								<th scope="col">Last</th>
+								<th scope="col">Handle</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>John</td>
+								<td>Doe</td>
+								<td>@social</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 			</div>
 		</main>
 
